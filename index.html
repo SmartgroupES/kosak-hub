@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kosak | Desarrollo Ad Hoc y Optimización de Procesos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <style>
+    .bg-tech-grid {
+      background-image: radial-gradient(rgba(148, 163, 184, 0.25) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+    .antigravity-card {
+      box-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.08), 
+                  0 4px 6px -2px rgba(15, 23, 42, 0.04);
+      transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .antigravity-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px -12px rgba(2, 132, 199, 0.15), 
+                  0 8px 16px -4px rgba(15, 23, 42, 0.06);
+    }
+  </style>
+</head>
+
+<body class="bg-slate-50 bg-tech-grid text-slate-800 font-sans antialiased min-h-screen flex flex-col justify-between selection:bg-sky-500 selection:text-white">
+
+  <header class="w-full max-w-5xl mx-auto px-6 pt-8 pb-4">
+    <nav class="bg-white/80 backdrop-blur-md border border-slate-200/80 rounded-2xl px-6 py-4 flex justify-between items-center shadow-sm">
+      <div class="text-xl font-bold tracking-tight text-slate-900 flex items-center gap-2.5">
+        <div class="p-2 bg-sky-50 rounded-lg border border-sky-100 text-sky-600">
+          <i data-lucide="cpu" class="w-5 h-5"></i>
+        </div>
+        <span>kosak<span class="text-sky-600">.es</span></span>
+      </div>
+      <a href="mailto:ncarrillok@gmail.com" 
+         class="text-sm font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300/70 rounded-xl px-4 py-2 transition duration-200 flex items-center gap-2">
+        <i data-lucide="mail" class="w-4 h-4 text-slate-500"></i>
+        Contacto
+      </a>
+    </nav>
+  </header>
+
+  <main class="w-full max-w-5xl mx-auto px-6 py-10">
+    
+    <section class="mb-14 max-w-3xl">
+      <div class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sky-700 bg-sky-100/70 border border-sky-200 px-3.5 py-1.5 rounded-full mb-5">
+        <span class="w-2 h-2 rounded-full bg-sky-500 animate-pulse"></span>
+        Ingeniería de Software & Procesos
+      </div>
+      
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 leading-tight tracking-tight mb-6">
+        Desarrollo ad hoc para digitalizar y optimizar procesos operativos.
+      </h1>
+      
+      <p class="text-slate-600 text-lg leading-relaxed border-l-2 border-sky-500 pl-4 bg-white/40 backdrop-blur-sm py-1 rounded-r-lg">
+        Diseño y construyo aplicaciones a medida concebidas para eliminar fricción operativa, protocolizar la documentación técnica e interconectar los flujos de trabajo con interfaces precisas, robustas y de alto rendimiento.
+      </p>
+    </section>
+
+    <section>
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xs uppercase tracking-widest font-bold text-slate-400">
+          Ecosistema de Apps & Proyectos
+        </h2>
+        <span class="text-xs text-slate-400 font-mono">portfolio activo</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <a href="https://overclever.kosak.es/" target="_blank" rel="noopener noreferrer" 
+           class="antigravity-card bg-white/90 backdrop-blur-sm rounded-2xl p-6 border border-slate-200/90 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-sky-50 border border-sky-100 text-sky-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+              <i data-lucide="sparkles" class="w-6 h-6"></i>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="font-bold text-slate-900 group-hover:text-sky-600 transition-colors">
+                Overclever
+              </h3>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-slate-400 group-hover:text-sky-600 transition-colors"></i>
+            </div>
+            <p class="text-sm text-slate-500 leading-normal">
+              Plataforma inteligente orientada a la estructuración, asistencia y optimización de flujos técnicos.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="font-mono text-sky-600 font-medium truncate max-w-[170px]">overclever.kosak.es</span>
+            <span class="text-emerald-600 font-medium bg-emerald-50 px-2 py-0.5 rounded border border-emerald-100">Live</span>
+          </div>
+        </a>
+
+        <a href="https://the-rock-republic.pages.dev/" target="_blank" rel="noopener noreferrer" 
+           class="antigravity-card bg-white/90 backdrop-blur-sm rounded-2xl p-6 border border-slate-200/90 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-slate-100 border border-slate-200 text-slate-700 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+              <i data-lucide="radio" class="w-6 h-6"></i>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="font-bold text-slate-900 group-hover:text-sky-600 transition-colors">
+                The Rock Republic
+              </h3>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-slate-400 group-hover:text-sky-600 transition-colors"></i>
+            </div>
+            <p class="text-sm text-slate-500 leading-normal">
+              Aplicación web interactiva y plataforma de contenidos multimedia desplegada en Cloudflare Pages.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="font-mono text-sky-600 font-medium truncate max-w-[170px]">the-rock-republic</span>
+            <span class="text-emerald-600 font-medium bg-emerald-50 px-2 py-0.5 rounded border border-emerald-100">Live</span>
+          </div>
+        </a>
+
+        <a href="https://carnet-c-pwa.smart-group.workers.dev/" target="_blank" rel="noopener noreferrer" 
+           class="antigravity-card bg-white/90 backdrop-blur-sm rounded-2xl p-6 border border-slate-200/90 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+              <i data-lucide="truck" class="w-6 h-6"></i>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="font-bold text-slate-900 group-hover:text-sky-600 transition-colors">
+                Carnet C PWA
+              </h3>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-slate-400 group-hover:text-sky-600 transition-colors"></i>
+            </div>
+            <p class="text-sm text-slate-500 leading-normal">
+              Progressive Web App para formación técnica y preparación del permiso de mercancías (CAP/C).
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="font-mono text-sky-600 font-medium truncate max-w-[170px]">carnet-c-pwa</span>
+            <span class="text-emerald-600 font-medium bg-emerald-50 px-2 py-0.5 rounded border border-emerald-100">Live</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="w-full max-w-5xl mx-auto px-6 pb-8 pt-4">
+    <div class="border-t border-slate-200/80 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400">
+      <p>© 2026 kosak.es · Desarrollo de aplicaciones ad hoc & optimización.</p>
+      <div class="flex gap-6 font-medium text-slate-600">
+        <a href="mailto:ncarrillok@gmail.com" class="hover:text-sky-600 transition">Email</a>
+        <a href="https://linkedin.com" target="_blank" class="hover:text-sky-600 transition">LinkedIn</a>
+        <a href="https://github.com" target="_blank" class="hover:text-sky-600 transition">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
